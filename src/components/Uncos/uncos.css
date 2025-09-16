@@ -1,0 +1,187 @@
+.uncos_text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  margin-top: 40px;
+}
+
+.uncos_title {
+  font-weight: 600;
+  font-size: 17px;
+  color: #202020;
+}
+
+.uncos_description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #434343;
+  margin-top: 8px;
+}
+
+.uncos_date {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7688a4;
+  margin-top: 12px;
+}
+
+.uncos_box {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.popular_box {
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  background: #f6f6f9;
+}
+
+.uncos_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+hr {
+  width: auto;
+  height: 4px;
+  background: #e4e4e4;
+  margin-top: 14px;
+}
+
+.popular_title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #202020;
+}
+.popular_description {
+  font-weight: 400;
+  font-size: 17px;
+  color: #202020;
+  margin-top: 6px;
+}
+
+.popular_date {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7688a4;
+  margin-top: 11px;
+}
+.popular_texts {
+  padding: 20px;
+}
+
+.ucell {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+}
+
+.uncos_button {
+  border-radius: 5px;
+  width: 211px;
+  height: 42px;
+  background: #295093;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.uncos_button:hover {
+  background: #1e3f73;
+}
+
+.uncos_button:active {
+  background: #162d50;
+  transform: scale(0.97);
+}
+
+.uncos_box_button {
+  display: flex;
+  justify-content: center;
+}
+
+.left_box img {
+  cursor: pointer;
+}
+@media screen and (max-width: 938px) {
+  .uncos_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .popular_box {
+    width: 100%;
+  }
+
+  .right_content {
+    margin-top: 40px;
+  }
+  .uncos_title {
+    font-size: 15px;
+  }
+  .uncos_description {
+    font-size: 13px;
+  }
+  .uncos_date {
+    font-size: 12px;
+  }
+  .uncos_text {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .uncos_button {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .uncos_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uncos_title {
+    font-size: 15px;
+    text-align: center;
+  }
+  .uncos_description {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .uncos_date {
+    font-size: 12px;
+    text-align: center;
+  }
+  .uncos_text {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .uncos_button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .popular_title {
+    font-size: 15px;
+    text-align: center;
+  }
+  .popular_description {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .popular_date {
+    font-size: 12px;
+    text-align: center;
+  }
+  .ucell{
+    width: 100%;
+    padding: 20px;
+  }
+}

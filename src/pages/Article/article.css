@@ -1,0 +1,82 @@
+.article_wrapper {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_title {
+  font-weight: 600;
+  font-size: 17px;
+  color: #000;
+}
+
+.article_texts {
+  margin-top: 37px;
+}
+
+.article_description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #000;
+  margin-top: 12px;
+}
+
+.hakim_text {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.left_article img{
+    width: 100%;
+}
+
+.article_box_wrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.back{
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: 1174px) {
+  .article_wrapper {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+    
+  .right_content {
+    margin-top: 60px;
+  }
+
+  .article_title{
+    text-align: center;
+    font-size: 15px;
+  }
+  .article_description {
+    text-align: center;
+    font-size: 13px;
+  }
+  .hakim_text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  .article_box_wrapper{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .back{
+    justify-content: center;
+  }
+    
+}

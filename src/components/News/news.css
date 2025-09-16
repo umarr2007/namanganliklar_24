@@ -1,0 +1,106 @@
+.news_wrapper {
+  margin-top: 20px;
+}
+
+.container_news{
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b6d97;
+  margin-top: 11px;
+}
+
+.prezident {
+  width: auto;
+  height: 190px;
+}
+
+.news_text {
+  font-weight: 600;
+  font-size: 17px;
+  color: #202020;
+  margin-top: 11px;
+}
+
+
+.news_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center; 
+  align-items: start; 
+}
+
+
+@media screen and (max-width: 1202px) {
+  .news_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .news_text {
+    font-size: 15px;
+  }
+  .prezident {
+    width: 100%;
+    height: auto;
+
+  }
+  .karantin {
+    width: 100%;
+    height: auto;
+  }
+  .sardoba {
+    width: 100%;
+    height: auto;
+  }
+  .prokuror {
+    width: 100%;
+    height:auto;
+  }
+  .prokuror_text {
+    font-size: 15px;
+  }
+  .prezident_text {
+    font-size: 15px;
+  }
+  .karantin_text {
+    font-size: 15px;
+  }
+  .sardoba_text {
+    font-size: 15px;
+  }
+  .tez_yordam {
+    font-size: 15px;
+  }
+  .tez_yordam_text {
+    font-size: 15px;
+  }
+  .tez_yordam{
+    width: 100%;
+    height: auto;
+  }
+
+  .stop_karantin{
+    width: 100%;
+    height: auto;
+  }
+
+}
+ 
+  
+@media screen and (max-width: 720px) {
+  .news_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 23px;
+  }
+  
+}

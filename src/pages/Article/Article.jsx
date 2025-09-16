@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import "./Article.css";
+import "./article.css";
 import Footer from "../../components/Footer/Footer";
 
 function Article() {

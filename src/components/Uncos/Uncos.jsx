@@ -1,5 +1,5 @@
 import React from "react";
-import "./Uncos.css";
+import "./uncos.css";
 import { useNavigate } from "react-router-dom";
 function Uncos() {
   const navigate = useNavigate();

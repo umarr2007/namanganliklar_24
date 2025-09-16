@@ -1,5 +1,5 @@
 import React from "react";
-import "./Headline.css";
+import "./headline.css";
 
 function Headline() {
   return (

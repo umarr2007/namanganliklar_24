@@ -8,7 +8,7 @@ import Uncos from "./components/Uncos/Uncos";
 import Article from "./pages/Article/Article";
 import Headline from "./components/Headline/Headline";
 import Footer from "./components/Footer/Footer";
-import Contact from "./pages/Article/Contact/Contact";
+import Contact from "./pages/Contact/Contact";
 function App() {
   return (
     <div>
@@ -20,19 +20,16 @@ function App() {
               <Header />
               <Information />
               <News />
-              <Notice/>
-              <Uncos/>
-              <Headline/>
-              <Footer/>
+              <Notice />
+              <Uncos />
+              <Headline />
+              <Footer />
             </div>
           }
         />
 
-        <Route path="/article" element={<Article/>} />
-        <Route path="/contact" element={<Contact/>} />
-
-
-
+        <Route path="/article" element={<Article />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

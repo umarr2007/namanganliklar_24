@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import Header from "../../../components/Header/Header";
+import Header from "../../components/Header/Header";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";

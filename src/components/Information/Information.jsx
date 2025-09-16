@@ -13,7 +13,7 @@ function Information() {
               </div>
               <div className="right">
                 <p className="virus_text">
-                  Коронавирус <br /> COVID-19 <br />  Узбекистане
+                  Коронавирус <br /> COVID-19 <br /> Узбекистане
                 </p>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Information() {
                 <img src="/nopossible.svg" alt="" />
               </div>
               <div className="right">
-                <p className="nopossible_text" >Умерли</p>
+                <p className="nopossible_text">Умерли</p>
                 <p className="nopossible_number">12</p>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./news.css";
 function News() {
   return (
-    <div>
+    <section>
       <div className="container_news">
         <div className="news_wrapper">
           <div className="news_box">
@@ -70,7 +70,7 @@ function News() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default News;

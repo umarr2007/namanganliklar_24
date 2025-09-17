@@ -29,6 +29,7 @@
   display: flex;
   gap: 30px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .popular_box {
@@ -90,6 +91,7 @@ hr {
   border: none;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-top: 25px;
 }
 
 .uncos_button:hover {

@@ -46,8 +46,11 @@ function Header() {
 
             <div className="language_box">
               <div className="language">
-                <img src="/ru.svg" alt="" />
-                <p className="russian">РУ</p>
+                <select className="language_select">
+                  <option>RU</option>
+                  <option>UZ</option>
+                  <option>EN</option>
+                </select>
               </div>
             </div>
 

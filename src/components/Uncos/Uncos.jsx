@@ -9,13 +9,9 @@ function Uncos() {
         <h2 className="uncos_text">Последние новости</h2>
         <div className="uncos_wrapper">
           <div className="left_content">
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
-                <img
-                  onClick={() => navigate("/article")}
-                  src="/uncos.svg"
-                  alt=""
-                />
+                <img src="/uncos.svg" alt="" />
               </div>
               <div className="right_box">
                 <h4 className="uncos_title">
@@ -32,7 +28,7 @@ function Uncos() {
               </div>
             </div>
 
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
                 <img
                   onClick={() => navigate("/article")}
@@ -55,13 +51,9 @@ function Uncos() {
               </div>
             </div>
 
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
-                <img
-                  onClick={() => navigate("/article")}
-                  src="/aftobus.svg"
-                  alt=""
-                />
+                <img src="/aftobus.svg" alt="" />
               </div>
               <div className="right_box">
                 <h4 className="uncos_title">
@@ -78,13 +70,9 @@ function Uncos() {
               </div>
             </div>
 
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
-                <img
-                  onClick={() => navigate("/article")}
-                  src="/uncos.svg"
-                  alt=""
-                />
+                <img src="/uncos.svg" alt="" />
               </div>
               <div className="right_box">
                 <h4 className="uncos_title">
@@ -101,15 +89,11 @@ function Uncos() {
               </div>
             </div>
 
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
-                <img
-                  onClick={() => navigate("/article")}
-                  src="/kengash.svg"
-                  alt=""
-                />
+                <img src="/kengash.svg" alt="" />
               </div>
-              <div className="right_box">
+              <div className="right_box ">
                 <h4 className="uncos_title">
                   По факту прорыва Сардобинского водохранилища <br /> возбуждено
                   уголовное дело
@@ -124,13 +108,9 @@ function Uncos() {
               </div>
             </div>
 
-            <div className="uncos_box">
+            <div onClick={() => navigate("/article")} className="uncos_box">
               <div className="left_box">
-                <img
-                  onClick={() => navigate("/article")}
-                  src="/aftobus.svg"
-                  alt=""
-                />
+                <img src="/aftobus.svg" alt="" />
               </div>
               <div className="right_box">
                 <h4 className="uncos_title">

@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const navigate = useNavigate();
@@ -34,7 +35,12 @@ function Contact() {
                 placeholder="Текст"
                 type="textarea"
               />
-              <input className="contact_file" type="file" />
+              <div className="contact_upload">
+                <input id="fileInput" className="contact_file" type="file" />
+                <label htmlFor="fileInput" className="contact_label">
+                  📂 Fayl yuklash
+                </label>
+              </div>
               <input
                 className="contact_password"
                 placeholder="Код"
@@ -62,9 +68,49 @@ function Contact() {
               <div className="box_text">
                 <h4 className="box_title">Социальные сети</h4>
                 <div className="box_icon">
-                  <FacebookIcon style={{ color: "#1877F2" }} />
-                  <TwitterIcon style={{ color: "#1DA1F2" }} />
-                  <DeveloperBoardIcon style={{ color: "#1DA1F2" }} />
+                  <div className="social_icons">
+                    <a
+                      href="https://facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FacebookIcon
+                        style={{
+                          color: "#1877F2",
+                          fontSize: 40,
+                          cursor: "pointer",
+                        }}
+                      />
+                    </a>
+
+                    <a
+                      href="https://twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TwitterIcon
+                        style={{
+                          color: "#1DA1F2",
+                          fontSize: 40,
+                          cursor: "pointer",
+                        }}
+                      />
+                    </a>
+
+                    <a
+                      href="https://developer.mozilla.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <DeveloperBoardIcon
+                        style={{
+                          color: "#1DA1F2",
+                          fontSize: 40,
+                          cursor: "pointer",
+                        }}
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
 

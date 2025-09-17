@@ -92,7 +92,7 @@
   margin-top: 20px;
 } */
 
-.contact_file {
+/* .contact_file {
   border: 2px solid #285193;
   border-radius: 5px;
   width: 221px;
@@ -114,7 +114,45 @@
   box-shadow: 0 0 12px rgba(19, 60, 130, 0.6);
   outline: none;
   background: #fff;
+} */
+
+.contact_file {
+  display: none; /* default choose file tugmasi yashiriladi */
 }
+
+.contact_file {
+  display: none; /* default "Choose file" tugmasini yashirish */
+}
+
+.contact_label {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* matnni o‘rtaga olish */
+  border: 2px solid #285193;
+  border-radius: 5px;
+  max-width: 221px;
+  width: auto;
+  height: 50px;
+  background: #f1f1f1;
+  opacity: 0.9;
+  font-size: 15px;
+  font-weight: 600;
+  color: #285193;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0 20px; /* ikki tomondan bir xil joy */
+}
+
+.contact_label:hover {
+  background: #285193;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact_label:active {
+  transform: scale(0.97);
+}
+
 .contact_btn {
   border-radius: 5px;
   width: 221px;
@@ -127,7 +165,15 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s ease; /* yumshoq animatsiya */
-  
+}
+
+.social_icons a {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social_icons a:hover {
+  transform: scale(1.2);
 }
 
 .contact_btn:hover {
@@ -205,9 +251,10 @@
 
 .contact_wrapper {
   display: flex;
-  justify-content: space-between; /* chap va o‘ngni ajratadi */
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 40px; /* ikki taraf orasidagi masofa */
+  gap: 40px;
+  margin-top: 30px;
 }
 
 .contact_left {
